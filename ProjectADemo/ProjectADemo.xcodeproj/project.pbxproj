@@ -15,6 +15,8 @@
 		26F71EF6206A488C00C63EDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F71EF5206A488C00C63EDE /* main.m */; };
 		26F71F00206A488C00C63EDE /* ProjectADemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F71EFF206A488C00C63EDE /* ProjectADemoTests.m */; };
 		26F71F0B206A488C00C63EDE /* ProjectADemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F71F0A206A488C00C63EDE /* ProjectADemoUITests.m */; };
+		26F71F58206A4BFD00C63EDE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 26F71F57206A4BFD00C63EDE /* README.md */; };
+		26F71F5B206A4C6700C63EDE /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F71F5A206A4C6700C63EDE /* TestVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		26F71F06206A488C00C63EDE /* ProjectADemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectADemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F71F0A206A488C00C63EDE /* ProjectADemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectADemoUITests.m; sourceTree = "<group>"; };
 		26F71F0C206A488C00C63EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F71F57206A4BFD00C63EDE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		26F71F59206A4C6700C63EDE /* TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		26F71F5A206A4C6700C63EDE /* TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		26F71EE5206A488C00C63EDE /* ProjectADemo */ = {
 			isa = PBXGroup;
 			children = (
+				26F71F56206A4BFD00C63EDE /* Module1 */,
 				26F71EE6206A488C00C63EDE /* AppDelegate.h */,
 				26F71EE7206A488C00C63EDE /* AppDelegate.m */,
 				26F71EE9206A488C00C63EDE /* ViewController.h */,
@@ -131,6 +137,16 @@
 			);
 			path = ProjectADemoUITests;
 			sourceTree = "<group>";
+		};
+		26F71F56206A4BFD00C63EDE /* Module1 */ = {
+			isa = PBXGroup;
+			children = (
+				26F71F57206A4BFD00C63EDE /* README.md */,
+				26F71F59206A4C6700C63EDE /* TestVC.h */,
+				26F71F5A206A4C6700C63EDE /* TestVC.m */,
+			);
+			path = Module1;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -240,6 +256,7 @@
 			files = (
 				26F71EF3206A488C00C63EDE /* LaunchScreen.storyboard in Resources */,
 				26F71EF0206A488C00C63EDE /* Assets.xcassets in Resources */,
+				26F71F58206A4BFD00C63EDE /* README.md in Resources */,
 				26F71EEE206A488C00C63EDE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26F71F5B206A4C6700C63EDE /* TestVC.m in Sources */,
 				26F71EEB206A488C00C63EDE /* ViewController.m in Sources */,
 				26F71EF6206A488C00C63EDE /* main.m in Sources */,
 				26F71EE8206A488C00C63EDE /* AppDelegate.m in Sources */,
